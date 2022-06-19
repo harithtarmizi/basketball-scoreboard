@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Basketball Scoreboard</title>
+</head>
+<body>
+	<div class="board-container">
+		<div class="home">
+			<h3 id="test" class="board-title">HOME</h3>
+			<div class="count-box">
+				<h2 class="count-num" id="count-home">0</h2>
+			</div>
+			<div class="points">
+				<button id="add-1-pts" class="pts-btn" onclick="PtsHome1()">+1</button>
+				<button id="add-2-pts" class="pts-btn" onclick="PtsHome2()">+2</button>
+				<button id="add-3-pts" class="pts-btn" onclick="PtsHome3()">+3</button>
+			</div>
+		</div>
+		<div class="away">
+			<h3 class="board-title">AWAY</h3>
+			<div class="count-box">
+				<h2 class="count-num" id="count-away">0</h2>
+			</div>
+			<div class="points">
+				<button id="add-1-pts" class="pts-btn" onclick="PtsAway1()">+1</button>
+				<button id="add-2-pts" class="pts-btn" onclick="PtsAway2()">+2</button>
+				<button id="add-3-pts" class="pts-btn" onclick="PtsAway3()">+3</button>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-wrap">
+			<a href="mailto: harisazzurri@gmail.com">
+				<img class="icon-social" src="images/email.svg" alt="Email">
+			</a>
+			<a href="https://github.com/harithtech" target="_blank">
+                <img class="icon-social" src="images/github.svg" alt="Github">
+            </a>
+		</div>
+		<p class="copyright">Made by harithtech © 2022</p>
+	</footer>
+	<script src="index.js"></script>
+</body>
+</html>
